@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 
 @pytest.mark.parametrize("x,y",[
     (2,3),
-    (10.0, 5.0)
+    (10, 5)
 ])
 
 def test_add(x,y):
